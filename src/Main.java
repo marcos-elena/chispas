@@ -69,5 +69,36 @@ public class Main {
         System.out.println("EMAIL: " + sociedad.getEmail());
         System.out.println("TELEFONO: " + sociedad.getTelefono());
         System.out.println("-------------------");
+
+        //Set producto 1
+        System.out.println("Rellena los datos del producto 1...");
+        Producto producto1 = new Producto();
+        producto1.setId(1);
+        System.out.println("Nombre:");
+        producto1.setName(entrada.next());
+        System.out.println("Marca:");
+        producto1.setMarca(entrada.next());
+        System.out.println("Modelo:");
+        producto1.setModelo(entrada.next());
+        System.out.println("Precio:");
+        producto1.setPrecio(entrada.nextInt());
+        System.out.println("Tipo IVA:");
+        producto1.setIva(entrada.nextInt());
+
+        //Set producto 2
+        System.out.println("Rellena los datos del producto 2...");
+        Producto producto2 = new Producto();
+        producto2.setId(2);
+        System.out.println("Nombre:");
+        producto2.setName(entrada.next());
+        System.out.println("Marca:");
+        producto2.setMarca(entrada.next());
+        System.out.println("Modelo:");
+        producto2.setModelo(entrada.next());
+        System.out.println("Precio:");
+        producto2.setPrecio(entrada.nextInt());
+        System.out.println("Tipo IVA:");
+        producto2.setIva(entrada.nextInt());
+
     }
 }
