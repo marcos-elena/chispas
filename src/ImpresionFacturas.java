@@ -1,6 +1,6 @@
 public class ImpresionFacturas {
-    public static void main(String[] args) {
-        /*System.out.println("-------------------");
+    public void print(Facturas factura1) {
+        System.out.println("-------------------");
         System.out.println("FACTURA-" + factura1.getId());
         System.out.println("FECHA: " + factura1.getFecha());
         System.out.println("CLIENTE:");
@@ -22,6 +22,6 @@ public class ImpresionFacturas {
         System.out.println("tipo IVA: " + factura1.getVenta().getIva());
         System.out.println("TOTAL:");
         System.out.println("Total: " + (factura1.getVenta().getPrecio())+factura1.getVenta().getPrecio());
-        System.out.println("-------------------");*/
+        System.out.println("-------------------");
     }
 }
